@@ -3,4 +3,12 @@
 
 TEST_CASE("Exercise 4") {
   VExercise4 model;
+
+  // Setup some inputs
+  model.eval();
+
+  int expected;
+  // Calculate the expected value
+
+  REQUIRE(model.out == expected);
 }
